@@ -21,7 +21,7 @@
 				include('components/signup.php');
 			}
 			else{
-				$message = sprintf('Добро пожаловать %s. Чтобы выйти - нажмите <a href="/exit.php">здесь</a>', $_COOKIE['user']);
+				$message = sprintf('Добро пожаловать %s. Чтобы выйти - нажмите <a href="/exit.php">здесь</a>', $_COOKIE['user']['email']);
 				echo $message;
 			}
 		?>
