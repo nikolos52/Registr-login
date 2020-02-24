@@ -1,4 +1,5 @@
-<form action="check.php" method="POST">
+<!-- Наверное ты всё-таки делаешь регистрацию, поэтому путь желательно поменять -->
+<form action="signup.php" method="POST">
 	<!-- Общий совет - не забывай про атрибут required -->
 	<input type="email" name="email" placeholder="Введите EMail" required>
 
